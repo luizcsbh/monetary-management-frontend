@@ -26,11 +26,3 @@ jobs:
     - run: npm test
       env:
         CI: true
-  
-  newman:
-
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@master
-      - uses: matt-ball/newman-action@mastergit
