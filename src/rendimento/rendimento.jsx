@@ -23,7 +23,7 @@ class Rendimento extends Component {
     render() {
         return (
             <div> 
-                <ContentHeader title='Rendimentos' small='Cadastro' />
+                <ContentHeader title='Pagamentos' small='Cadastro' />
                 <Content> 
                     <Tabs> 
                         <TabsHeader> 

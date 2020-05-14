@@ -4,14 +4,16 @@ import { reducer as toastrReducer } from 'react-redux-toastr'
 
 import DashboardReducer from '../dashboard/dashboardReducer'
 import TabReducer from '../common/tab/tabReducer'
-import rendimentoReducer from '../rendimento/rendimentoReducer'
+import RendimentoReducer from '../rendimento/rendimentoReducer'
+import AuthReducer from '../auth/authReducer'
 
 const rootReducer = combineReducers({
     dashboard: DashboardReducer,
     tab: TabReducer,
-    rendimento: rendimentoReducer,
+    rendimento: RendimentoReducer,
     form: formReducer,
-    toastr: toastrReducer
+    toastr: toastrReducer,
+    auth: AuthReducer
 })
 
 export default rootReducer

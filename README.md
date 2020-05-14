@@ -36,10 +36,10 @@ npm install
 
 To start the server, type the command at the root of the project:
 ```node
-npm run dev
+npm start
 ```
 
-To access the server type in the browser: http://localhost:8080
+To access the server type in the browser: http://localhost:3000
 
 
 ## Author

@@ -21,6 +21,6 @@ RUN npm install
 
 EXPOSE 3003
 
-ENTRYPOINT [ "/rendimentos" ]
+ENTRYPOINT [ "http://localhost:3003/api","http://localhost:3003/oapi" ]
 
 CMD npm rum start
