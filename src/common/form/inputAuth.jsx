@@ -1,6 +1,5 @@
 import React from 'react'
 import If from '../operator/if'
-
 export default props => (
     <If test={!props.hide}>
         <div className="form-group has-feedback">

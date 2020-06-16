@@ -1,8 +1,8 @@
 import axios from 'axios'
-const BASE_URL = 'http://localhost:3003/api'
+import consts from '../consts'
 
 export function getSummary() {
-    const request = axios.get(`${BASE_URL}/rendimentos/summary`)
+    const request = axios.get(`${consts.API_URL}/rendimentos/summary`)
     return {
         type: 'RENDIMENTO_SUMMARY_FETCHED',
         payload: request

@@ -1,17 +1,16 @@
 import React from 'react'
-import { Switch, Route, Redirect } from 'react-router'
+import { Router, Route, IndexRouter, Redirect, hashHistory } from 'react-router'
 
 import AuthOrApp from './authOrApp'
 import Dashboard from '../dashboard/dashboard'
 import Rendimento from '../rendimento/rendimento'
 
 export default props => (
-    <div className='content-wrapper'>
-        <Switch>
-            <Route exact path='/' component={ Dashboard } />
-            <Route path='/rendimentos' component={ Rendimento } />
-            <Redirect from='*' to='/' />
-        </Switch>
-
-    </div>
+    <Router history={hashHistory}>
+        <Route path='/' component={AuthOrApp}>
+            <IndexRouter component={Dashboard} />
+            <Route path='rendimentos' component={Rendimento}/>
+        </Route>
+        <Redirect from='*' to='/' />
+    </Router>
 )
