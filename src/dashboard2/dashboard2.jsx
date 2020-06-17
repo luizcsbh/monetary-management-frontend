@@ -23,7 +23,7 @@ export default class Dashboard2 extends Component {
         const { credito, debito } = this.state
         return (
             <div> 
-                <ContentHeader title='Dashboard' small='Versão 2.0' />
+                <ContentHeader title='Painel de Gestão Financeiro MMF' small='Versão 2.0' />
                 <Content>
                     <Row> 
                         <ValueBox cols='12 4' color='green' icon='bank'

@@ -5,6 +5,7 @@ import AuthOrApp from './authOrApp'
 import Dashboard from '../dashboard/dashboard'
 import Rendimento from '../rendimento/rendimento'
 
+
 export default props => (
     <Router history={hashHistory}>
         <Route path='/' component={AuthOrApp}>

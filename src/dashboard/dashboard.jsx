@@ -18,7 +18,7 @@ class Dashboard extends Component {
         const { credito, debito } = this.props.summary
         return (
             <div> 
-                <ContentHeader title='Dashboard' small='Versão 1.0' />
+                <ContentHeader title='Painel de Gestão Financeiro MMF' small='Versão 1.0' />
                 <Content>
                     <Row> 
                         <ValueBox cols='12 4' color='green' icon='bank'
