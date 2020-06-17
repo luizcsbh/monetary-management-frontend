@@ -25,12 +25,16 @@ class ItemList extends Component {
         return list.map((item, index) => (
             <tr key={index}>
                 <td><Field name={`${this.props.field}[${index}].name`} component={Input}
-                    placeholder='Informe o nome' readOnly={this.props.readOnly} /></td>
+                    placeholder='Nome do débito' readOnly={this.props.readOnly} /></td>
                 <td><Field name={`${this.props.field}[${index}].value`} component={Input}
-                    placeholder='Informe o valor' readOnly={this.props.readOnly} /></td>
+                    placeholder='Informe o R$' readOnly={this.props.readOnly} /></td>
+                <If test={this.props.showCategory}>
+                    <td><Field name={`${this.props.field}[${index}].category`} component={Input}
+                        placeholder='Categoria' readOnly={this.props.readOnly} /></td>
+                </If>
                 <If test={this.props.showStatus}>
                     <td><Field name={`${this.props.field}[${index}].status`} component={Input}
-                        placeholder='Informe o status' readOnly={this.props.readOnly} /></td>
+                        placeholder='Status' readOnly={this.props.readOnly} /></td>
                 </If>
                 <td>
                     <button type='button' className='btn btn-success'
@@ -60,6 +64,9 @@ class ItemList extends Component {
                             <tr>
                                 <th>Nome</th>
                                 <th>Valor</th>
+                                <If test={this.props.showCategory}>
+                                    <th>Categoria</th>
+                                </If>
                                 <If test={this.props.showStatus}>
                                     <th>Status</th>
                                 </If>

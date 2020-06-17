@@ -31,17 +31,14 @@ class RendimentoForm extends Component {
                     <Field name='year' component={LabelAndInput} type='number' readOnly={readOnly}
                         label='Ano' cols='12 4' placeholder='Informe o ano' />
                     <Summary credito={sumOfCredits} debito={sumOfDebts} />
-                    <ItemList cols='12 6' list={credito} readOnly={readOnly}
+                    <ItemList cols='12 8' list={credito} readOnly={readOnly}
                         field='credito' legend='Créditos' />
-                    <ItemList cols='12 6' list={debito} readOnly={readOnly}
-                        field='debito' legend='Débitos' showStatus={true} />
+                    <ItemList cols='12 12' list={debito} readOnly={readOnly}
+                        field='debito' legend='Débitos' showStatus={true} showCategory={true} />
                 </div>
                 <div className='box-footer'>
-                    <button type='submit' className={`btn btn-${this.props.submitClass}`}>
-                        {this.props.submitLabel}
-                    </button>
-                    <button type='button' className='btn btn-default'
-                        onClick={this.props.init}>Cancelar</button>
+                    <button type='submit' className={`btn btn-${this.props.submitClass}`}>{this.props.submitLabel}</button>
+                    <button type='button' className='btn btn-default' onClick={this.props.init}>Cancelar</button>
                 </div>
             </form>
         )
