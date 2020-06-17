@@ -53,6 +53,6 @@
     "webpack-dev-server": "1.16.2"
   },
   "dependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "0.10.0"
   }
 }
