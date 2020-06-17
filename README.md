@@ -1,24 +1,14 @@
 [![issues](https://img.shields.io/github/issues/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/issues)
-
 ![forks](https://img.shields.io/github/forks/luizcsbh/monetary-management-frontend)
-
 ![stars](https://img.shields.io/github/stars/luizcsbh/monetary-management-frontend)
-
 [![lincença](https://img.shields.io/github/license/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/blob/master/LICENSE)
-
 ![code-size](https://img.shields.io/github/languages/code-size/luizcsbh/monetary-management-frontend)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/luizcsbh/monetary-management-frontend/Node.js%20CI
 )](https://github.com/luizcsbh/monetary-management-frontend/actions)
-
-[![environment](https://img.shields.io/github/deployments/luizcsbh/monetary-management-frontend/
-management-my-finances)](https://github.com/luizcsbh/monetary-management-frontend/deployments)
-
 [![commit activity](https://img.shields.io/github/commit-activity/m/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/commits)
-
 [![last commit](https://img.shields.io/github/last-commit/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/commits)
-
+[![environment](https://img.shields.io/github/deployments/luizcsbh/monetary-management-frontend/management-my-finances)](https://github.com/luizcsbh/monetary-management-frontend/deployments)
 [![version](https://img.shields.io/github/package-json/v/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/blob/master/package.json)
-
 [![twwiter follow](https://img.shields.io/twitter/follow/luizcs?style=social)](https://twitter.com/luizcs)
 
 
