@@ -7,6 +7,7 @@
 )](https://github.com/luizcsbh/monetary-management-frontend/actions)
 [![commit activity](https://img.shields.io/github/commit-activity/m/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/commits)
 [![last commit](https://img.shields.io/github/last-commit/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/commits)
+[![environment](https://img.shields.io/github/deployments/luizcsbh/monetary-management-frontend/management-my-finances)](https://github.com/luizcsbh/monetary-management-frontend/deployments)
 [![version](https://img.shields.io/github/package-json/v/luizcsbh/monetary-management-frontend)](https://github.com/luizcsbh/monetary-management-frontend/blob/master/package.json)
 [![twwiter follow](https://img.shields.io/twitter/follow/luizcs?style=social)](https://twitter.com/luizcs)
 
@@ -36,10 +37,10 @@ npm install
 
 To start the server, type the command at the root of the project:
 ```node
-npm start
+npm run production
 ```
 
-To access the server type in the browser: http://localhost:3000
+To access the server type in the browser: http://localhost:8080
 
 
 ## Author
