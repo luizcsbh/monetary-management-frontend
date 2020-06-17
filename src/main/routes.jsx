@@ -8,7 +8,7 @@ import Rendimento from '../rendimento/rendimento'
 export default props => (
     <Router history={hashHistory}>
         <Route path='/' component={AuthOrApp}>
-            <IndexRouter component={Dashboard} />
+            <IndexRouter path='/' component={Dashboard} />
             <Route path='rendimentos' component={Rendimento}/>
         </Route>
         <Redirect from='*' to='/' />
