@@ -9,7 +9,7 @@ export default props => (
     <div className='wrapper'>
         <Header />
         <SideBar />
-        <div className='content-wrapper'>
+        <div className='content-wrapper'> 
             {props.children}
         </div>
         <Footer />

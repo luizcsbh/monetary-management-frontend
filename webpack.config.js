@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.jsx',
     output: {
         path: __dirname + '/public',
         filename: './app.js'
@@ -27,7 +27,7 @@ module.exports = {
         }),
         new ExtractTextPlugin('app.css'),
         new webpack.DefinePlugin({
-            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
         }),
         new webpack.optimize.UglifyJsPlugin()
     ],
