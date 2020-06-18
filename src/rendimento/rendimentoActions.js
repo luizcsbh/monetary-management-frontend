@@ -9,7 +9,7 @@ const INITIAL_VALUES = {credito: [{}], debito: [{}]}
 export function getList() {
     const request = axios.get(`${consts.API_URL}/rendimentos`)
     return {
-        type: 'RENDIMENTOS_FETCHED',
+        type: 'RENDIMENTO_FETCHED',
         payload: request
     }
 }

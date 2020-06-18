@@ -1,6 +1,6 @@
 {
   "name": "monetary-management-frontend",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Personal monetary management application frontend",
   "main": "index.js",
   "author": {
