@@ -13,7 +13,7 @@
 [![twwiter follow](https://img.shields.io/twitter/follow/luizcs?style=social)](https://twitter.com/luizcs)
 
 
-# monetary-management-frontend :computer: 
+# Monetary-Management-Frontend :computer: 
 
 Project  frontend of this web application.
 
